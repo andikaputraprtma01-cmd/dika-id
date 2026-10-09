@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Metadata -->
+    <title>dika.id | Jasa MikroTik, Networking & Troubleshooting</title>
+    <meta name="description" content="Layanan konfigurasi MikroTik, routing, switching, troubleshooting, server, dan optimasi jaringan. Hubungi dika.id untuk konsultasi kebutuhan jaringan Anda.">
+    <meta name="author" content="dika.id">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="dika.id | Jasa MikroTik, Networking & Troubleshooting">
+    <meta property="og:description" content="Layanan konfigurasi MikroTik, routing, switching, troubleshooting, server, dan optimasi jaringan. Hubungi dika.id untuk konsultasi kebutuhan jaringan Anda.">
+    <meta property="og:site_name" content="dika.id">
+    <meta property="og:url" content="https://dika.id">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- React & Tailwind CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#080D18',
+                            secondary: '#101827',
+                            surface: '#151F30',
+                            blue: '#2589FF',
+                            cyan: '#35D5F2',
+                            text: '#F4F7FB',
+                            muted: '#A4B0C2'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    animation: {
+                        'pulse-glow': 'pulseGlow 3s infinite alternate',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        pulseGlow: {
+                            '0%': { opacity: 0.3, filter: 'drop-shadow(0 0 10px rgba(37, 137, 255, 0.2))' },
+                            '100%': { opacity: 0.8, filter: 'drop-shadow(0 0 25px rgba(53, 213, 242, 0.6))' },
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-brand-bg text-brand-text antialiased selection:bg-brand-blue selection:text-white">
+    <div id="root"></div>
+
+    <script type="text/babel" src="app.jsx"></script>
+</body>
+</html>

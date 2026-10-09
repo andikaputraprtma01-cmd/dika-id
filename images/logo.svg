@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 190" fill="none">
+  <defs>
+    <linearGradient id="mark-gradient" x1="25" y1="170" x2="177" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173B91"/>
+      <stop offset=".52" stop-color="#168F9F"/>
+      <stop offset="1" stop-color="#35B98B"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#mark-gradient)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M108 99v68M108 106c-1 33-17 55-46 55-27 0-44-20-42-46 2-25 21-42 45-42 18 0 33 10 43 26Z" stroke-width="24"/>
+    <path d="m37 157 78-76m-35 1 39-8-8 39" stroke-width="17"/>
+    <path d="M111 68a13 13 0 1 0 0-26 13 13 0 0 0 0 26Z" fill="url(#mark-gradient)" stroke="none"/>
+    <path d="M111 28a51 51 0 0 1 50 50M111 6a73 73 0 0 1 72 72" stroke-width="14"/>
+  </g>
+  <text x="208" y="119" fill="#19377F" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="91" font-weight="800">dika.id</text>
+  <text x="211" y="157" fill="#19377F" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="25" font-weight="600">Koneksi Cepat &amp; Terpercaya</text>
+</svg>
