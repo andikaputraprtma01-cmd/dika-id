@@ -15,49 +15,49 @@ const { useState, useEffect } = React;
         const portfolioData = [
             {
                 id: "01",
-                title: "MikroTik Configuration",
-                category: "Routing & Management",
-                description: "Dokumentasi konfigurasi router, multi-monitor NOC workstation, dan pengelolaan traffic jaringan.",
+                title: "MikroTik Traffic Monitoring",
+                category: "WinBox & Interface Statistics",
+                description: "Pemantauan trafik antarmuka MikroTik melalui WinBox, termasuk kecepatan Tx/Rx, packet rate, dan penggunaan bandwidth secara langsung.",
                 image: "images/portfolio/portfolio-01.jpg",
                 fallbackImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80"
             },
             {
                 id: "02",
-                title: "Network Infrastructure & Patching",
-                category: "Hardware & Fiber Optic",
-                description: "Pemeriksaan dan manajemen kabel fiber optic, SFP module, serta patching switch di rack server.",
+                title: "Rack & Network Equipment Deployment",
+                category: "Rack Installation & Cabling",
+                description: "Dokumentasi instalasi perangkat pada rack, koneksi switch dan router, serta jalur kabel saat deployment jaringan.",
                 image: "images/portfolio/portfolio-02.jpg",
                 fallbackImage: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80"
             },
             {
                 id: "03",
-                title: "Network Monitoring Dashboard",
-                category: "WinBox & Monitoring",
-                description: "Monitoring performa link, Winbox session, status antrean bandwidth, dan topology The Dude.",
+                title: "MikroTik Interface Performance",
+                category: "WinBox Traffic Analysis",
+                description: "Pemeriksaan statistik interface di WinBox, meliputi throughput Tx/Rx, packet rate, grafik trafik, serta indikator error dan drop.",
                 image: "images/portfolio/portfolio-03.jpg",
                 fallbackImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
             },
             {
                 id: "04",
-                title: "Routing & Ping Latency Analysis",
-                category: "Troubleshooting",
-                description: "Pengujian konektivitas, analisis latency, packet loss, dan troubleshooting parameter IP.",
+                title: "On-site Network Configuration",
+                category: "Router & Fiber Connectivity",
+                description: "Konfigurasi dan pengecekan perangkat jaringan langsung di lokasi menggunakan laptop WinBox serta koneksi kabel dan fiber.",
                 image: "images/portfolio/portfolio-04.jpg",
                 fallbackImage: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80"
             },
             {
                 id: "05",
-                title: "Server & Virtualization Testbed",
-                category: "Homelab & Testing",
-                description: "Pengujian interface router, penataan kabel, dan integrasi perangkat server lokal.",
+                title: "Network Rack & Equipment Setup",
+                category: "Router & Cabling",
+                description: "Dokumentasi perangkat jaringan di area rack serta koneksi kabel yang digunakan dalam proses instalasi dan pengecekan.",
                 image: "images/portfolio/portfolio-05.jpg",
                 fallbackImage: "https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?auto=format&fit=crop&w=800&q=80"
             },
             {
                 id: "06",
-                title: "Multi-Screen NOC Monitoring",
-                category: "NOC Operations",
-                description: "Setup monitoring multi-layar untuk pemantauan log Telegram, Winbox, dan statistik jaringan secara realtime.",
+                title: "Internet Speed & Quality Test",
+                category: "Speedtest & Latency",
+                description: "Pengujian koneksi mencatat kecepatan unduh 505,26 Mbps, ping 12 ms, dan jitter 4 ms untuk mendokumentasikan performa jaringan.",
                 image: "images/portfolio/portfolio-06.jpg",
                 fallbackImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
             }
